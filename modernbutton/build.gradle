@@ -41,7 +41,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.aynalhaque6'
                 artifactId = 'modernbutton'
-                version = '1.0.0'
+                version = '1.0.2'
             }
         }
     }
