@@ -39,7 +39,7 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'net.codecollection'
+                groupId = 'com.github.aynalhaque6'
                 artifactId = 'modernbutton'
                 version = '1.0.0'
             }
