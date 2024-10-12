@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- ProgressBar (Initially hidden) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_drawable"
+        android:visibility="gone" />
+
+    <!-- ImageView (Initially visible) -->
+    <ImageView
+        android:id="@+id/tapImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circle_background"
+        android:contentDescription="@null"
+        android:padding="15dp"
+        android:src="@drawable/tap" />
+
+</merge>

@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="CircularProgressButton">
+        <attr name="progressDrawable" format="reference" />
+        <attr name="imageBackground" format="reference" />
+        <attr name="imageSrc" format="reference" />
+    </declare-styleable>
+</resources>
